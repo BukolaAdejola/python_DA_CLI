@@ -20,7 +20,7 @@ E8 = 40 - 44
 F9 = 0 - 39
 
 score = input('Enter student score: ')
-if score.isnumeric:
+if score.isnumeric():
     score = int(score)
 
     if score >= 75:
